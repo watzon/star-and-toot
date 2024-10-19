@@ -1,0 +1,11 @@
+[project]
+name = "star-and-toot"
+version = "0.1.0"
+description = "This is a simple bot that monitors starred repositories on GitHub and posts a status update on Mastodon whenever a new repository is starred."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mastodon-py==1.5.1",
+    "pygithub==1.55",
+    "tweepy>=4.14.0",
+]
