@@ -16,6 +16,10 @@ idna==3.10
     # via requests
 mastodon-py==1.5.1
     # via star-and-toot (pyproject.toml)
+oauthlib==3.2.2
+    # via
+    #   requests-oauthlib
+    #   tweepy
 pycparser==2.22
     # via cffi
 pygithub==1.55
@@ -34,10 +38,16 @@ requests==2.32.3
     # via
     #   mastodon-py
     #   pygithub
+    #   requests-oauthlib
+    #   tweepy
+requests-oauthlib==1.3.1
+    # via tweepy
 six==1.16.0
     # via
     #   mastodon-py
     #   python-dateutil
+tweepy==4.14.0
+    # via star-and-toot (pyproject.toml)
 urllib3==2.2.3
     # via requests
 wrapt==1.16.0
